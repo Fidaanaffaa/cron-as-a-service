@@ -1,0 +1,6 @@
+@Cron_as_a_service_HostAddress = http://localhost:5200
+
+GET {{Cron_as_a_service_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
